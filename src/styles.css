@@ -12,7 +12,7 @@
 /*Header*/
 
 .banner{
-    background-image: url('imagen2.jpg');
+    background-image: url('/public/imagen2.jpg');
     
 }
 
