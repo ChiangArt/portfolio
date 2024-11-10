@@ -2,17 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-scroll";
-
-const menu = [
-  { text: "Sobre mi", path: "/about" },
-  { text: "Pasión", path: "/pasion" },
-  { text: "Experiencia", path: "/experiencia" },
-  { text: "Proyectos", path: "/projectos" },
-  { text: "Resume", path: "/resume" },
-  { text: "Contacto", path: "/contacto" },
-];
+import {getMenu} from '../constant/menuHelper';
 
 export const NavBar = () => {
+  
+  const menu = getMenu();
   const menuRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 

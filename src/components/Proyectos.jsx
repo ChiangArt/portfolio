@@ -11,10 +11,14 @@ export const Proyectos = () => {
         />
         <div className="proyecto-content">
           <MagnifyingGlassPlusIcon className="w-7 h-7" />
-          <p>Aquí puedes escribir algo</p>
+          
         </div>
+        <div className="proyecto-content-name">
+        <p>BlackJack</p>
+        </div>
+        
       </div>
-      <div className="proyecto w-[20em] h-[12em] relative">
+      <div className="proyecto w-[20em] h-[12em] relative cursor-pointer">
         <div className="relative w-full h-full">
           <img
             src="blackJack.jpg"
@@ -23,7 +27,7 @@ export const Proyectos = () => {
           />
         </div>
       </div>
-      <div className="proyecto w-[20em] h-[12em] relative">
+      <div className="proyecto w-[20em] h-[12em] relative cursor-pointer">
         <div className="relative w-full h-full">
           <img
             src="blackJack.jpg"
@@ -32,7 +36,7 @@ export const Proyectos = () => {
           />
         </div>
       </div>
-      <div className="proyecto w-[20em] h-[12em] relative">
+      <div className="proyecto w-[20em] h-[12em] relative cursor-pointer">
         <div className="relative w-full h-full">
           <img
             src="blackJack.jpg"
@@ -41,7 +45,7 @@ export const Proyectos = () => {
           />
         </div>
       </div>
-      <div className="proyecto w-[20em] h-[12em] relative">
+      <div className="proyecto w-[20em] h-[12em] relative cursor-pointer">
         <div className="relative w-full h-full">
           <img
             src="blackJack.jpg"
@@ -50,7 +54,7 @@ export const Proyectos = () => {
           />
         </div>
       </div>
-      <div className="proyecto w-[20em] h-[12em] relative">
+      <div className="proyecto w-[20em] h-[12em] relative cursor-pointer">
         <div className="relative w-full h-full">
           <img
             src="blackJack.jpg"

@@ -106,7 +106,7 @@
   position: absolute;
   top: 0; 
   left: 50%;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, 130%);
   z-index: 2; 
   color: white;
   display: block;
@@ -116,13 +116,8 @@
 }
 
 .proyecto:hover .proyecto-content {
-  transform: translate(-50%, 50%); 
+  transform: translate(-50%, 70px); 
   opacity: 1; 
-}
-
-.proyecto-content i {
-  font-size: 2em; 
-  margin-bottom: 0.5em;
 }
 
 .proyecto-img {
@@ -130,6 +125,26 @@
   height: 100%;
   object-fit: cover;
 }
+
+.proyecto-content-name {
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translate(-50%, 130%);
+  z-index: 2; 
+  color: white;
+  display: block;
+  text-align: center;
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+}
+
+.proyecto:hover .proyecto-content-name {
+  transform: translate(-50%, -20px); 
+  opacity: 1; 
+}
+
+
 
 
 
