@@ -1,6 +1,7 @@
 {
   "name": "portafolio-react",
   "private": true,
+  "homepage": "https://ChiangArt.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -45,7 +45,7 @@ export const About = () => {
                   alt="keyboard"
                 />
               </div>
-              <p className="sm:mt-8 mt-4 text-sm text-center">Desarrollo web</p>
+              <p className="sm:mt-8 mt-4 text-sm text-center">Desarrollador Full Stack</p>
             </div>
 
             <div>
