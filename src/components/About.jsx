@@ -10,7 +10,7 @@ export const About = () => {
           <div className="rounded-full overflow-hidden mb-5 mt-5">
             <img
               className="block mx-auto h-60 w-60 object-cover"
-              src="/portfolio/public/about2.jpg"
+              src="./about.jpg"
               alt=""
             />
           </div>
