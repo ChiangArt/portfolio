@@ -10,21 +10,21 @@ export const About = () => {
           <div className="rounded-full overflow-hidden mb-5 mt-5">
             <img
               className="block mx-auto h-60 w-60 object-cover"
-              src="./about2.jpg"
+              src="/about2.jpg"
               alt=""
             />
           </div>
           <p className="text-center text-xl font-light">
             ¡Hola! Me llamo Bryan y soy desarrolladora web. Me apasiona el
             diseño y el desarrollo front-end. Actualmente soy estudiante de
-            Computacion e Informatica en{" "}
+            Computacion e Informatica en
             <a
               href="https://www.cibertec.edu.pe/"
               target="_blank"
               className="underline text-blue-800 hover:text-blue-400"
             >
               Cibertec
-            </a>{" "}
+            </a>
             y estoy llevando unos cursos externos para Full Stack. Aspiro a una
             carrera que me permita canalizar mi creatividad mediante la creación
             de software atractivo y experiencias atractivas.<br></br>

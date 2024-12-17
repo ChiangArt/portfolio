@@ -1,11 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { Link } from "react-scroll";
-import {getMenu} from '../constant/menuHelper';
+import { getMenu } from "../constant/menuHelper";
 
 export const NavBar = () => {
-  
   const menu = getMenu();
   const menuRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +31,7 @@ export const NavBar = () => {
         {/* Este menu es para pantallas mas grandes */}
         <div className="navbar flex flex-row justify-between sm:justify-between p-1 font-light">
           <Link
-            to="/inicio" 
+            to="/inicio"
             spy={true}
             smooth={true}
             offset={0}
@@ -43,9 +41,7 @@ export const NavBar = () => {
             Bryan Chiang
           </Link>
           <div
-            className={
-              "hidden sm:flex sm:gap-3 mr-4 md:gap-6 text-sm lg:mr-8"
-            }
+            className={"hidden sm:flex sm:gap-3 mr-4 md:gap-6 text-sm lg:mr-8"}
           >
             {menu.map((item) => (
               <Link
@@ -56,7 +52,9 @@ export const NavBar = () => {
                 offset={-70}
                 duration={900}
                 activeClass="active"
-                className={`menu-item content-center cursor-pointer hover:bg-cyan-300 hover:text-cyan-300 hover:bg-transparent rounded-none `}
+                className={
+                  "menu-item content-center cursor-pointer hover:bg-cyan-300 hover:text-cyan-300 hover:bg-transparent rounded-none"
+                }
               >
                 {item.text}
               </Link>
@@ -79,20 +77,25 @@ export const NavBar = () => {
         {/* Este menu es para pantallas mas pequenas */}
         <div
           ref={menuRef}
-          className={` w-3/5 ml-auto sm:hidden m-1 rounded-xl flex flex-col bg-cyan-900 bg-opacity-40 duration-300 ease-in-out transition-all transform ${
+          className={`fixed w-full ml-auto m-1 rounded-xl flex flex-col cursor-pointer bg-black bg-opacity-40 duration-300 ease-in-out transform ${
             !isOpen
-              ? "max-h-0 overflow-hidden"
-              : "max-h-[500px] opacity-100 overflow-hidden"
-          }`}
+              ? "translate-x-full"
+              : "bg-opacity-65"
+          } sm:hidden`}
         >
           {menu.map((item) => (
-            <NavLink
+            <Link
               key={item.path}
               to={item.path}
-              className="flex p-8 justify-center sm:hidden font-light  hover:bg-cyan-300 hover:text-slate-950 rounded-md"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={900}
+              activeClass="active"
+              className="flex p-8 justify-center sm:hidden font-bold  hover:bg-cyan-300 hover:text-slate-950 rounded-md"
             >
               {item.text}
-            </NavLink>
+            </Link>
           ))}
         </div>
       </nav>
