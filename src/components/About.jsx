@@ -10,7 +10,7 @@ export const About = () => {
           <div className="rounded-full overflow-hidden mb-5 mt-5">
             <img
               className="block mx-auto h-60 w-60 object-cover"
-              src="/public/IMG-20241217-WA0157.jpg"
+              src="./IMG-20241217-WA0157.jpg"
               alt=""
             />
           </div>
@@ -39,21 +39,21 @@ export const About = () => {
 
           <div className="grid md:grid-cols-3 items-center gap-24">
             <div className="flex flex-col items-center justify-between gap-12 h-full">
-              <img className="h-20 w-h-20" src="/keyboard.png" alt="keyboard" />
+              <img className="h-20 w-h-20" src="./keyboard.png" alt="keyboard" />
               <p>Desarrollador Full Stack</p>
             </div>
 
             <div className="flex flex-col items-center justify-between gap-12 h-full">
               <img
                 className="h-20 w-h-20"
-                src="/pencil-case.png"
+                src="./pencil-case.png"
                 alt="pencil"
               />
               <p>Entusiasta de la experiencia de usuario</p>
             </div>
 
             <div className="flex flex-col items-center justify-between gap-12 h-full">
-              <img className="h-20 w-h-20" src="/travel.png" alt="travel" />
+              <img className="h-20 w-h-20" src="./travel.png" alt="travel" />
               <p>Viajar</p>
             </div>
           </div>

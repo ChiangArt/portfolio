@@ -2,7 +2,7 @@ export const Contacto = () => {
   return (
     <div className="h-[300px] bg-aditional">
       <div className="w-full h-full flex flex-col justify-center items-center text-center gap-5 overflow-hidden">
-        <img src="/paper-plane.png" className="w-20 h-20" />
+        <img src="./paper-plane.png" className="w-20 h-20" />
         <p className="text-lg md:text-3xl">¡PONGASE EN CONTACTO!</p>
         <p className="text-sm md:text-base">
           Si tienes una idea para un proyecto o simplemente quieres charlar, ¡no

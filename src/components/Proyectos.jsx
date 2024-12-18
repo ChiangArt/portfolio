@@ -14,7 +14,7 @@ export const Proyectos = () => {
           className=" proyecto cursor-pointer"
         >
           <img
-            src="/blackJack.jpg"
+            src="./blackJack.jpg"
             alt="Juego Black Jack"
             className="proyecto-img object-cover"
           />
@@ -31,7 +31,7 @@ export const Proyectos = () => {
           className="proyecto cursor-pointer"
         >
           <img
-            src="/GifExpert.png"
+            src="./GifExpert.png"
             alt="Buscador Gift Expert"
             className="proyecto-img object-cover"
           />
@@ -65,7 +65,7 @@ export const Proyectos = () => {
           className="proyecto  cursor-pointer"
         >
           <img
-            src="/ecomerce.png"
+            src="./ecomerce.png"
             alt="html imagen"
             className="proyecto-img object-cover"
           />
