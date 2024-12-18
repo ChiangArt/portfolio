@@ -48,7 +48,7 @@ export const Proyectos = () => {
           className="proyecto cursor-pointer"
         >
           <img
-            src="/todo.png"
+            src="./todo.png"
             alt="html imagen"
             className="proyecto-img object-cover"
           />
