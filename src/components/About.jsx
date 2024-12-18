@@ -15,9 +15,8 @@ export const About = () => {
             />
           </div>
           <p className="text-center text-xl font-light">
-            ¡Hola! Me llamo Bryan y soy desarrolladora web. Me apasiona el
-            diseño y el desarrollo front-end. Actualmente soy estudiante de
-            Computacion e Informatica en
+            ¡Hola! Soy Bryan, desarrollador web apasionado por el diseño y
+            desarrollo front-end. Estudie Computación e Informática en
             <a
               href="https://www.cibertec.edu.pe/"
               target="_blank"
@@ -26,12 +25,13 @@ export const About = () => {
               {" "}
               Cibertec{" "}
             </a>
-            y estoy llevando unos cursos externos para Full Stack. Aspiro a una
-            carrera que me permita canalizar mi creatividad mediante la creación
-            de software atractivo y experiencias atractivas.<br></br>
+            y complemento mi formación con cursos externos de Full Stack, además
+            de trabajar en desarrollo web. Aspiro a un trabajo donde pueda
+            canalizar mi creatividad creando software atractivo y experiencias
+            memorables.<br></br>
             <br></br>
-            Cuando no estoy frente a la computadora, disfruto de viajar, hacer
-            ejercicios y acariciar perros.
+            uando no estoy frente a la computadora, me encanta viajar, hacer
+            ejercicio y acariciar perros.
           </p>
         </div>
         <div className=" bg-aditional w-full gap-10 flex flex-col text-center rounded-xl p-5 mt-10">
@@ -39,7 +39,11 @@ export const About = () => {
 
           <div className="grid md:grid-cols-3 items-center gap-24">
             <div className="flex flex-col items-center justify-between gap-12 h-full">
-              <img className="h-20 w-h-20" src="./keyboard.png" alt="keyboard" />
+              <img
+                className="h-20 w-h-20"
+                src="./keyboard.png"
+                alt="keyboard"
+              />
               <p>Desarrollador Full Stack</p>
             </div>
 
