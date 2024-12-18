@@ -5,8 +5,7 @@ export const getMenu = () => {
       { text: "Sobre mi", path: "/about" },
       { text: "Pasión", path: "/pasion" },
       { text: "Experiencia", path: "/experiencia" },
-      { text: "Proyectos", path: "/projectos" },
-      { text: "Resume", path: "/resume" },
+      { text: "Proyectos", path: "/proyectos" },
       { text: "Contacto", path: "/contacto" },
     ];
   };

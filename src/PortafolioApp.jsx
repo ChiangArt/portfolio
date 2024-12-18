@@ -1,10 +1,10 @@
-import { About, Contacto, Experience, Header, Pasion, Proyectos } from './components';
+import { About, Contacto, DescargarCv, Experience, Header, Pasion, Proyectos, RedesSociales } from './components';
 
 
 
 export const PortafolioApp = () => {
   return (
-    <>
+    <div className="text-black">
       <Header/>
       {/* secction About */}
       <About/>
@@ -13,10 +13,14 @@ export const PortafolioApp = () => {
       {/* secction Experience */}
       <Experience/>
       {/* secction Conctacto */}
-      <Contacto/>
+      <DescargarCv/>
       {/* secction Proyectos */}
       <Proyectos/>
-    </>
+      {/* seccion Contacto */}
+      <Contacto/>
+      {/* footer */}
+      <RedesSociales/>
+    </div>
   )
 }
 

@@ -1,13 +1,16 @@
 export const Contacto = () => {
   return (
-    <div className="mt-9 relative h-[30vh] overflow-hidden flex flex-col justify-center z-0">
-      <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-[5px] z-10"></div>
-      <div className="banner2 absolute top-0 left-0 w-full h-full bg-cover bg-center bg-fixed"></div>
-      <div className="relative mx-auto items-center gap-7 flex flex-col z-20">
-        <p className="uppercase font-light text-2xl">Mira mi currículum!</p>
-        <button className=" border-white text-lg border-2 w-42 p-2 font-extralight hover:border-teal-600 hover:text-teal-600">
-          Consigue una copia
-        </button>
+    <div className="h-[300px] bg-aditional">
+      <div className="w-full h-full flex flex-col justify-center items-center text-center gap-5 overflow-hidden">
+        <img src="/paper-plane.png" className="w-20 h-20" />
+        <p className="text-lg md:text-3xl">¡PONGASE EN CONTACTO!</p>
+        <p className="text-sm md:text-base">
+          Si tienes una idea para un proyecto o simplemente quieres charlar, ¡no
+          dudes en enviarme un correo electrónico!
+        </p>
+        <a className="border-2 border-y-neutral-950 border-spacing-28  hover:text-teal-600 hover:border-y-teal-600" href="mailto:bryan_94tj@hotmail.com?subject=Consulta sobre el CV&body=Hola, me gustaría saber más sobre tu experiencia.">
+          Envíame un correo
+        </a>
       </div>
     </div>
   );

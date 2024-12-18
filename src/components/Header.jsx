@@ -5,7 +5,7 @@ import { ChevronDoubleDownIcon } from "@heroicons/react/24/outline";
 
 export const Header = () => {
   return (
-    <div className="/inicio">
+    <div className="text-white">
       <div className="relative h-[90vh] overflow-hidden flex flex-col justify-center">
         <div className="banner absolute top-0 left-0 w-full h-full bg-cover bg-center bg-fixed"></div>
         <NavBar />
